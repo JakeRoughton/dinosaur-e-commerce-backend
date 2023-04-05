@@ -25,7 +25,6 @@ npm install mongodb
 npm install cors
 npm install nodemon
 npm install dotenv
-npm install uuid
 npm install bcryptJS
 npm install JsonWebToken
 npm install uuidv4
