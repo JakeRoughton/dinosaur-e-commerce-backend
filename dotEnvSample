@@ -1,4 +1,0 @@
-ATLAS_URI=mongodb+srv://TheCodingClimber:%23Valhalla1337@cluster0.ijubvcn.mongodb.net/?retryWrites=true&w=majority
-MONGO_DATABASE = Dinosaur_Store
-PORT = 5001
-
