@@ -17,6 +17,7 @@ mongoConnect();
 const indexRouter = require("./routes/index");
 const dinosRouter = require("./routes/dinosaurs");
 const usersRouter = require("./routes/users")
+const checkoutRouter = require("./routes/checkout");
 
 //instantiate the actual express app
 const app = express();
@@ -42,6 +43,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", indexRouter);
 app.use("/dinosaurs", dinosRouter);
 app.use("/users", usersRouter);
+app.use("/checkout", checkoutRouter)
+
+
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
