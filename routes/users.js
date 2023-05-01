@@ -4,7 +4,7 @@ const {
 	createUser,
 	loginUser,
 	verifyUser,
-} = require("../controllers/usersController");
+} = require("../Controllers/usersController");
 
 /* GET users listing. */
 router.get("/", function (req, res, next) {
